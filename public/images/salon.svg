@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="460" viewBox="0 0 900 460" role="img" aria-label="Автосалон Lada">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1b2a44"/>
+      <stop offset="1" stop-color="#3b5578"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9cc3e6"/>
+      <stop offset="1" stop-color="#4f7aa3"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="460" fill="url(#sky)"/>
+
+  <!-- Здание салона -->
+  <rect x="90" y="110" width="720" height="250" fill="#e9edf2"/>
+  <rect x="90" y="110" width="720" height="56" fill="#0f2f63"/>
+  <text x="450" y="148" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" letter-spacing="10" fill="#ffffff">LADA</text>
+  <rect x="120" y="186" width="660" height="174" fill="url(#glass)"/>
+  <g stroke="#e9edf2" stroke-width="6">
+    <line x1="230" y1="186" x2="230" y2="360"/>
+    <line x1="340" y1="186" x2="340" y2="360"/>
+    <line x1="450" y1="186" x2="450" y2="360"/>
+    <line x1="560" y1="186" x2="560" y2="360"/>
+    <line x1="670" y1="186" x2="670" y2="360"/>
+  </g>
+
+  <!-- Дорога -->
+  <rect y="360" width="900" height="100" fill="#2b2f36"/>
+  <g fill="#d9dde3">
+    <rect x="40" y="406" width="80" height="8"/>
+    <rect x="200" y="406" width="80" height="8"/>
+    <rect x="360" y="406" width="80" height="8"/>
+    <rect x="520" y="406" width="80" height="8"/>
+    <rect x="680" y="406" width="80" height="8"/>
+  </g>
+
+  <!-- Автомобиль -->
+  <g transform="translate(300 290)">
+    <path d="M10 80 L20 52 Q26 40 42 38 L100 34 L140 8 Q148 2 160 2 L230 2 Q244 2 254 12 L284 38 L310 44 Q326 48 328 62 L330 80 Z" fill="#c8102e"/>
+    <path d="M110 36 L146 12 Q150 9 158 9 L190 9 L190 36 Z" fill="#cfe3f5"/>
+    <path d="M200 9 L230 9 Q240 9 248 17 L268 36 L200 36 Z" fill="#cfe3f5"/>
+    <rect x="300" y="52" width="22" height="8" rx="3" fill="#ffe08a"/>
+    <circle cx="80" cy="82" r="24" fill="#1a1a1a"/>
+    <circle cx="80" cy="82" r="10" fill="#9aa3ad"/>
+    <circle cx="262" cy="82" r="24" fill="#1a1a1a"/>
+    <circle cx="262" cy="82" r="10" fill="#9aa3ad"/>
+  </g>
+
+  <text x="450" y="70" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#ffffff">Автосалон Lada</text>
+</svg>
